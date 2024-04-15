@@ -1,0 +1,66 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        min-height: 100vh; /* Burada container'ı sayfanın tam yüksekliğine uzatıyoruz */
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    .todo-form {
+        margin-bottom: 20px;
+    }
+    
+    .todo-form input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    .todo-form input[type="submit"] {
+        background-color: #0047f9;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+
+    }
+    
+    .todo-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .todo-item {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+
+    .todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
